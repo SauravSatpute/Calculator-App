@@ -19,6 +19,7 @@ main {
 div.container {
    
     /* width: 450px; */
+    
     background-color: #252D44;
     display: flex;
     justify-content: center;
@@ -29,6 +30,7 @@ div.container {
 div.grid {
     height: 360px;
     width: 400px;
+    
     padding: 30px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -88,6 +90,7 @@ div.grid {
     padding: 40px;
     /* direction: rtl; */
     width: 440px;
+    
     border-radius: 15px;
     border: none;
     color: #fff;
@@ -103,4 +106,29 @@ div.grid {
     text-align: start;
     width: 440px;
     font-weight: 800;
+}
+
+@media screen and (max-width: 480px) {
+  
+  div.grid {
+    width: 280px;
+  }
+  .input-textfield input {
+    width: 280px;
+  }
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appname {
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 440px;
+    font-weight: 800;
+}
 }
