@@ -14,11 +14,6 @@ You can visit the deployed site here
 
 
 
-## Demo
-
-Insert gif or link to demo
-
-
 ## Screenshots
 
 ![App Screenshot](calc.png)
